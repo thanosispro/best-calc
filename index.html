@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="try.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <div class="topg" >
+        <div class="day-night">
+            <div class="day-night1">
+                <center><p id="weather">Day</p>
+                    <p id="image"><img src="day.png" alt="" width="60pt" style="cursor: pointer;" onclick="weather()"></p>
+
+                    </center>
+            </div>
+        </div>
+<center><div class="div-main">
+            <div class="div-write" id="input">
+                    
+            </div>
+            <div class="parlee">
+                -Parlee
+            </div>
+            <div class="div-write1" id="result">
+
+            </div>
+                <div class="div-btn">
+                <button class="button"onclick="printvalue(this)" >7</button>
+                <button class="button" style="margin-left:20pt;" onclick="printvalue(this)">8</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">9</button>
+                <button class="button"style="margin-left:20pt; "
+                onmouseover="this.style.backgroundColor='#ffff00';"
+     onmouseout="this.style.backgroundColor='#3498db'; this.style.color='#333333';" onclick="deletevalue()">DEL</button>
+                <button class="button"style="margin-left:20pt;"
+                onmouseover="this.style.backgroundColor='#ffff00';"
+     onmouseout="this.style.backgroundColor='#3498db'; this.style.color='#333333';"
+     onclick="clearvalue()">AC</button><br><br><br>
+                <button class="button"onclick="printvalue(this)">4</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">5</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">6</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">*</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">/</button><br><br><br>
+                <button class="button"onclick="printvalue(this)">1</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">2</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">3</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">+</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">-</button><br><br><br>
+                <button class="button"onclick="printvalue(this)">0</button>
+                <button class="button"style="margin-left:20pt;"onclick="printvalue(this)">.</button>
+                <button class="button"style="margin-left:20pt;" onclick="root()">√</button>
+                <button class="button"style="margin-left:20pt;" onclick="square()">x²</button>
+                <button class="button"style="margin-left:20pt;"
+                onmouseover="this.style.backgroundColor='#ffff00';"
+     onmouseout="this.style.backgroundColor='#3498db'; this.style.color='#333333';"onclick="result()">=</button><br><br><br>
+     <button class="button"style="margin-left:20pt;" onclick="printvalue(this)">(</button>
+     <button class="button"style="margin-left:20pt;" onclick="printvalue(this)">)</button>
+     <button class="button"style="margin-left:20pt;" onclick="ans()">ANS</button>
+                
+                </div>
+</div></center>
+ </div>
+<script src="real.js"></script>
+</body>
+</html>
